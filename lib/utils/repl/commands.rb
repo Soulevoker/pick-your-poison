@@ -1,5 +1,6 @@
+#module Utils
+#  module Repl
 class Commands
-
   def handle_command(command, params)
     COMMANDS[command].(params)
   rescue NoMethodError
@@ -16,3 +17,5 @@ class Commands
 
   COMMANDS = {'help' => method(:help), 'quit' => method(:quit)}
 end
+#  end
+#end
