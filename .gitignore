@@ -51,3 +51,7 @@ build-iPhoneSimulator/
 
 # Specific to RubyMine
 .idea/*
+
+# tmp files
+*.swp
+.DS_Store
