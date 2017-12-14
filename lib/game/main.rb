@@ -12,7 +12,7 @@ module Game
     end
 
     def start_game
-      puts "Pick Your Posion Started:"
+      puts "Pick Your Poison Started:"
       # Start REPL
       Repl.start_repl
       while true
